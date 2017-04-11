@@ -176,11 +176,6 @@
     ::-webkit-scrollbar-thumb {
       background-color: @scrollbarColor;
     }
-    .ace_scrollbar {
-      scrollbar-track-color: @white;
-      scrollbar-face-color: @scrollbarColor;
-      scrollbar-shadow-color: @scrollbarColor;
-    }
   }
 
   .saurus-code {
@@ -201,62 +196,13 @@
       font-family: Consolas, Menlo, Monaco, "Lucida Console", "Liberation Mono", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Courier New", monospace, serif;
     }
 
-    .ace_gutter-layer {
-      background-color: @white;
-      border-right: 1px solid @dpwBorderColor;
-    }
-
-    .ace_content {
-      background-color: @white;
-      color: #585858;
-    }
-
-    .ace_scroller.ace_scroll-left {
-      box-shadow: none;
-    }
-
     ::-webkit-scrollbar-track {
       background-color: @white;
     }
     ::-webkit-scrollbar-thumb {
       background-color: @scrollbarColor;
     }
-    .ace_scrollbar {
-      scrollbar-track-color: @white;
-      scrollbar-face-color: @scrollbarColor;
-      scrollbar-shadow-color: @scrollbarColor;
-    }
-    .ace_line {
-      color: @codeFunction;
-    }
-    .ace-monokai {
-      background-color: @white;
 
-      .ace_gutter {
-        background-color: @white;
-      }
-      .ace_punctuation {
-        color: @codeOperator;
-      }
-
-      .ace_storage.ace_type {
-        color: @codeKeywords;
-      }
-
-      .ace_function, .ace_keyword, .ace_identifier {
-        color: @codeFunction;
-      }
-
-      .ace_variable, .ace_string, .ace_invalid.ace_illegal {
-        color: @codeString;
-        background-color: transparent;
-      }
-    }
-
-  }
-
-  .ace_scrollbar-v {
-    background-color: @white;
   }
 
   .saurus-explorer {
@@ -300,8 +246,4 @@
 
   }
 
-}
-
-.ace-monokai .ace_indent-guide {
-  opacity: 0.2;
 }
